@@ -1,0 +1,35 @@
+.headerl{
+    width: 100%;
+    height: 1rem;
+    background: white;
+    z-index: 999;
+    border-bottom: 2px solid #d9d9d9;
+}
+.innerl{
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    background: white;
+}
+.letterl{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: white;
+}
+.letterl i{
+    display: block;
+    font-size: 0.5rem;
+    color: #666666;
+    padding-top: 0.28rem;
+    float: left;
+}
+.letterl .searchl{
+    float: left;
+    position: absolute;
+    text-align: center;
+    font-size: 0.42rem;
+    top: 0.28rem;
+    left: 40%;
+    color: black;
+}
